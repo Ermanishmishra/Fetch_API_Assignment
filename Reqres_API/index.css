@@ -1,0 +1,18 @@
+#displayData{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+#displayData>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin-left: 40%;
+    margin-bottom: 2%;
+}
